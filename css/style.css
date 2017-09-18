@@ -1,5 +1,79 @@
 .mylogo{
-	max-height: 42px;
-  margin-right: 10px;
-  display: inline-block;
+	max-height: 20px;
+  margin-right: 3px;
+  margin-bottom: 3px;
+}
+
+.navbar{
+	max-height: auto;
+}
+
+.list-group-item-success{
+	padding-top: 2px;
+	padding-bottom: 2px;
+	max-width: auto;
+}
+
+.jumbotron{
+	padding-top: 2px;
+}
+
+.hrline{
+	margin-top: 2px;
+}
+
+.panel-color{
+	background-color: #ffffcc;
+}
+
+.menu-panel{
+	width: 210px; 
+	display: inline;
+	overflow-y: scroll; 
+	float: left;
+}
+
+.list-group-item-success{
+background: #f1f1f1;
+}
+
+#yellow .panel-color{
+	border-left: 6px solid #ffeb3b;
+	background: #ffffcc;
+}
+#yellow .panel{
+	bottom: 10px; 
+}
+
+.col-md-7 {
+	margin-left: 100px;
+}
+
+.panel{
+	margin-top: 20px;
+}
+
+#green .panel-color{
+	background-color: #ddffdd;
+	border-left: 6px solid #4CAF50;
+}
+
+#green .panel-body{
+	font-size: 16px;
+}
+
+.pager{
+	max-width: 1000px;
+}
+
+@media all and (max-width: 1280px) {
+    #container { width: 100%; }
+}
+
+.footer{
+	line-height: 2px;
+	box-sizing:  border-box;
+	display: block;
+	padding: 55px 0;
+	top: 20px;
 }
