@@ -14,7 +14,18 @@
 	max-width: auto;
 }
 
+.list-group-item{
+	outline: 0;
+  border: none;
+	padding: 3px 2px 3px 24px;
+	box-sizing: border-box;
+	display: block;
+	height: 30px;
+}
+
 .jumbotron{
+	display: inline-block;
+	width: 135%;
 	padding-top: 2px;
 }
 
@@ -27,10 +38,12 @@
 }
 
 .menu-panel{
-	width: 210px; 
-	display: inline;
-	overflow-y: scroll; 
-	float: left;
+	height: 100%;
+    width: 210px;
+    position: fixed!important;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    overflow: auto;
 }
 
 .list-group-item-success{
@@ -66,7 +79,7 @@ background: #f1f1f1;
 	max-width: 1000px;
 }
 
-@media all and (max-width: 1280px) {
+@media all and (max-width: 1400px) {
     #container { width: 100%; }
 }
 
@@ -76,4 +89,14 @@ background: #f1f1f1;
 	display: block;
 	padding: 55px 0;
 	top: 20px;
+}
+
+#side-bar .h3{
+	box-sizing: inherit;
+	padding-left: 16px;
+	font-size: 24px;
+}
+
+#content .container{
+	padding-left: 100px;
 }
